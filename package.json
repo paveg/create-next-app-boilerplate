@@ -15,7 +15,8 @@
     "test:all": "npm lint && npm typecheck && npm test",
     "update-snapshots": "jest --updateSnapshot",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o build -s ./stories/assets"
+    "build-storybook": "build-storybook -o build -s ./stories/assets",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.@(js|jsx|ts|tsx|json|md|css|html)": [

@@ -1,5 +1,5 @@
-import { NextPage } from "next";
-import Head from "next/head";
+import { NextPage } from 'next'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
@@ -7,7 +7,7 @@ const Home: NextPage = () => {
       <Head>header</Head>
       <div className="text-lg">container</div>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
